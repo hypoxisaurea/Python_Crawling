@@ -23,6 +23,7 @@ for row in rdr:
     my_dict[keyword] = korean
 f.close()
 
+
 while True:
     keyword = input('번역할 영단어 입력: ')
     if keyword == '0':
@@ -46,6 +47,3 @@ while True:
 
 driver.close()
 f.close()
-
-
-
