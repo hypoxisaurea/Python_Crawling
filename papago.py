@@ -24,5 +24,6 @@ def get_papago_result(my_dict):
         driver.find_element_by_css_selector('textarea#txtSource').clear()
 
     return my_dict
+
 get_papago_result(my_dict)
 print(my_dict)
